@@ -86,3 +86,5 @@ allData$featAxis <- factor(x %*% y, labels=c(NA, "X", "Y", "Z"))
 setkey(allData, subject, activity, featDomain, featAcceleration, featInstrument, featJerk, featMagnitude, featVariable, featAxis)
 allDataTidy <- allData[, list(count = .N, average = mean(value)), by=key(allData)]
 
+f <- file.path(pathWithData, "alldataSet.txt")
+write.table(allDataTidy, f, quote=FALSE, sep="\t", row.names=FALSE)
