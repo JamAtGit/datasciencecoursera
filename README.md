@@ -4,8 +4,8 @@
 This is the course project for the Getting and Cleaning Data Coursera course.
 The R script, `run_analysis.R`, does the following:
 
-1. Set path
-2. Load the activity and feature info
+1. Sets path
+2. Loads the activity and feature info
 3. Loads both the training and test datasets, keeping only those columns which
    reflect a mean or standard deviation
 4. Loads the activity and subject data for each dataset, and merges those
