@@ -18,16 +18,16 @@ The R script, `run_analysis.R`, does the following:
 The end result is shown in the file `alldataSet.txt`.
 
 ##How to run
-Open the R script run_analysis.R using RStudio
-Set the working path depending on your directories structure call to the working directory/folder (i.e., the folder where these the R script file is saved).
-Run the R script run_analysis.R
+1. Open the R script run_analysis.R using RStudio
+2. Set the working path depending on your directories structure call to the working directory/folder (i.e., the folder where these the R script file is saved).
+3. Run the R script run_analysis.R
 
 ## Procedure
-it Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive activity names.
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- it Merges the training and the test sets to create one data set.
+- Extracts only the measurements on the mean and standard deviation for each measurement.
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive activity names.
+- Creates a second, independent tidy data set with the average of each variable of interest for each activity and each subject.
 it's called allDataSet.txt
 
 ##data set description
