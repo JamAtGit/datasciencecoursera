@@ -19,7 +19,7 @@ The end result is shown in the file `alldataSet.txt`.
 
 ##How to run
 Open the R script run_analysis.R using RStudio
-Change the parameter of the setwd function call to the working directory/folder (i.e., the folder where these the R script file is saved).
+Set the working path depending on your directories structure call to the working directory/folder (i.e., the folder where these the R script file is saved).
 Run the R script run_analysis.R
 
 ## Procedure
