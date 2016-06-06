@@ -50,7 +50,7 @@ The following files are available for the train and test data. Their description
 * `subject` - The ID of the test subject
 * `activity` - The type of activity performed when the corresponding measurements were taken
 
-## Measurements in the result data file
+## Measurements in the result tidy data file
 
 * subject
 * activity
