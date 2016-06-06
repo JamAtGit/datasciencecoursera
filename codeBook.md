@@ -50,19 +50,19 @@ The following files are available for the train and test data. Their description
 * `subject` - The ID of the test subject
 * `activity` - The type of activity performed when the corresponding measurements were taken
 
-## Measurements
+## Measurements in the result data file
 
-*subject
-*activity
-*featDomain
-*featAcceleration
-*featInstrument
-*featJerk
-*featMagnitud
-*efeatVariable
-*featAxis
-*count
-*average
+* subject
+* activity
+* featDomain
+* featAcceleration
+* featInstrument
+* featJerk
+* featMagnitud
+* efeatVariable
+* featAxis
+* count
+* average
 
 ## Activity Labels
 
